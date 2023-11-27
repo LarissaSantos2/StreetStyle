@@ -15,37 +15,40 @@
     <!-- Menu -->
     <!-- Menu -->
     <section id="header">
-        <a href="#"><img src="logo2.png" class="logo" alt=""></a>
-        <ul id="navbar" class="menu-desktop">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="shop.html">Produtos</a></li>
-            <li><a class="active" href="blog.html">Blog</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="contatos.html">Contatos</a></li>
-            <li id="lg-bag" class="menu-desktop">
-                <i class="far fa-shopping-bag" id="icone-carrinho">
-                    <span id="quantidade-carrinho">0</span>
-                </i>
-            </li>
-        </ul>
-        <div id="mobile" class="menu-mobile">
+    <a href="#"><img src="logo2.png" class="logo" alt=""></a>
+    <ul id="navbar" class="menu-desktop">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="shop.html">Produtos</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contatos.html">Contatos</a></li>
+        <li><i class='bx bx-search' id="iconepesquisa" onclick="exibirResultadosPesquisa()"></i></li>
+        <li id="lg-bag" class="menu-desktop">
             <i class="far fa-shopping-bag" id="icone-carrinho">
                 <span id="quantidade-carrinho">0</span>
             </i>
-            <i id="bar" class="fas fa-outdent"></i>
-            <a href="#" id="close"><i class="far fa-times"></i></a>
+        </li>
+        <a href="#" id="close"><i class="far fa-times"></i></a>
+    </ul>
+    <div id="mobile" class="menu-mobile">
+        
+    <i class="far fa-shopping-bag" id="icone-carrinho">
+            <span id="quantidade-carrinho">0</span>
+        </i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+
+    </div>
+    <div class="carrinho1">
+        <h2 class="titulo-carrinho">Seu Carrinho</h2>
+        <div class="conteudo-carrinho"></div>
+        <div class="total">
+            <div class="titulo-total">Total</div>
+            <div class="preco-total">R$0</div>
         </div>
-        <div class="carrinho1">
-            <h2 class="titulo-carrinho">Seu Carrinho</h2>
-            <div class="conteudo-carrinho"></div>
-            <div class="total">
-                <div class="titulo-total">Total</div>
-                <div class="preco-total">R$0</div>
-            </div>
-            <button type="button" class="btn-comprar">Comprar Agora</button>
-            <i class='bx bx-x' id="fechar-carrinho"></i>
-        </div>
-    </section>
+        <button type="button" class="btn-comprar">Comprar Agora</button>
+        <i class='bx bx-x' id="fechar-carrinho"></i>
+    </div>
+</section>
 
     <section id="page-header" class="blog-header">
         <!-- Banner Contatos -->
