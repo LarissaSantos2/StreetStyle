@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreetStyle-Produtos</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Menu -->
+    <section id="header">
+        <a href="#"><img src="logo2.png" class="logo" alt=""></a>
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="shop.html">Produtos</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contatos.html">Contatos</a></li>
+            <li id="lg-bag">
+                <i class="far fa-shopping-bag" id="icone-carrinho">
+                    <span id="quantidade-carrinho">0</span>
+                </i>
+            </li>
+        </ul>
+        <div id="mobile">
+            <i class="far fa-shopping-bag" id="icone-carrinho">
+                <span id="quantidade-carrinho">0</span>
+            </i>
+            <i id="bar" class="fas fa-outdent"></i>
+            <a href="#" id="close"><i class="far fa-times"></i></a>
+        </div>
+        <div class="carrinho1">
+            <h2 class="titulo-carrinho">Seu Carrinho</h2>
+            <div class="conteudo-carrinho"></div>
+            <div class="total">
+                <div class="titulo-total">Total</div>
+                <div class="preco-total">R$0</div>
+            </div>
+            <button type="button" class="btn-comprar">Comprar Agora</button>
+            <i class='bx bx-x' id="fechar-carrinho"></i>
+        </div>
+    </section>
+
+    <section id="page-header">
+        <!-- Banner -->
+        <h2>#STREETWEAR</h2>
+        <p>Economize mais com cupons e até 70% de desconto!</p>
+
+    </section>
+
+
+    <section id="produto1" class="section-p1">
+
+        <div class="pro-container">
+            <div class="pro"  onclick="redirecionar('produto17.html');"> <!-- Link para descrição do Produto -->
+                <img src="prod17.jpg" alt="" class="imagem-produto"> <!-- Imagem do Produto -->
+                <div class="des">
+                    <span class="categoria">streetstyle</span>
+                    <h5 class="titulo-produto">Camiseta Star</h5> <!-- Nome do Produto -->
+                    <div class="star">
+                        <i class="fas fa-star"></i> <!-- Estrelas do produto -->
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="preco">R$70.99</h4>
+                </div>
+                <i class="fal fa-shopping-cart adicionar-carrinho carrinho" onclick="adicionarAoCarrinho(event);"></i> <!-- Imagem Carrinho -->
+            </div>
+            <div class="pro"  onclick="redirecionar('produto18.html');"> <!-- Link para descrição do Produto -->
+                <img src="prod18.jpg" alt="" class="imagem-produto"> <!-- Imagem do Produto -->
+                <div class="des">
+                    <span class="categoria">streetstyle</span>
+                    <h5 class="titulo-produto">Camisa Fanstatic</h5> <!-- Nome do Produto -->
+                    <div class="star">
+                        <i class="fas fa-star"></i> <!-- Estrelas do produto -->
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="preco">R$99.99</h4>
+                </div>
+                <i class="fal fa-shopping-cart adicionar-carrinho carrinho" onclick="adicionarAoCarrinho(event);"></i> <!-- Imagem Carrinho -->
+            </div>
+            
+            <div class="pro"  onclick="redirecionar('produto19.html');"> <!-- Link para descrição do Produto -->
+            <img src="prod19.png" alt="" class="imagem-produto"> <!-- Imagem do Produto -->
+                <div class="des">
+                    <span class="categoria">streetstyle</span>
+                    <h5 class="titulo-produto">Camiseta TUPAC</h5> <!-- Nome do Produto -->
+                    <div class="star">
+                        <i class="fas fa-star"></i> <!-- Estrelas do produto -->
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="preco">R$70.99</h4>
+                </div>
+                <i class="fal fa-shopping-cart adicionar-carrinho carrinho" onclick="adicionarAoCarrinho(event);"></i> <!-- Imagem Carrinho -->
+            </div>
+            <div class="pro"  onclick="redirecionar('produto20.html');"> <!-- Link para descrição do Produto -->
+                <img src="prod20.png" alt="" class="imagem-produto"> <!-- Imagem do Produto -->
+                <div class="des">
+                    <span class="categoria">streetstyle</span>
+                    <h5 class="titulo-produto">Calça Cargo preta</h5> <!-- Nome do Produto -->
+                    <div class="star">
+                        <i class="fas fa-star"></i> <!-- Estrelas do produto -->
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="preco">R$110.99</h4>
+                </div>
+                <i class="fal fa-shopping-cart adicionar-carrinho carrinho" onclick="adicionarAoCarrinho(event);"></i> <!-- Imagem Carrinho -->
+            </div>
+            <div class="pro"  onclick="redirecionar('produto21.html');"> <!-- Link para descrição do Produto -->
+                <img src="prod21.png" alt="" class="imagem-produto"> <!-- Imagem do Produto -->
+                <div class="des">
+                    <span class="categoria">streetstyle</span>
+                    <h5 class="titulo-produto">Moletom preto</h5> <!-- Nome do Produto -->
+                    <div class="star">
+                        <i class="fas fa-star"></i> <!-- Estrelas do produto -->
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="preco">R$130.99</h4>
+                </div>
+                <i class="fal fa-shopping-cart adicionar-carrinho carrinho" onclick="adicionarAoCarrinho(event);"></i> <!-- Imagem Carrinho -->
+            </div>
+            <div class="pro"  onclick="redirecionar('produto22.html');"> <!-- Link para descrição do Produto -->
+                <img src="prod22.jpg" alt="" class="imagem-produto"> <!-- Imagem do Produto -->
+                <div class="des">
+                    <span class="categoria">streetstyle</span>
+                    <h5 class="titulo-produto">Moletom bege</h5> <!-- Nome do Produto -->
+                    <div class="star">
+                        <i class="fas fa-star"></i> <!-- Estrelas do produto -->
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="preco">R$130.99</h4>
+                </div>
+                <i class="fal fa-shopping-cart adicionar-carrinho carrinho" onclick="adicionarAoCarrinho(event);"></i> <!-- Imagem Carrinho -->
+            </div>
+            <div class="pro"  onclick="redirecionar('produto23.html');"> <!-- Link para descrição do Produto -->
+                <img src="prod23.jpg" alt="" class="imagem-produto"> <!-- Imagem do Produto -->
+                <div class="des">
+                    <span class="categoria">streetstyle</span>
+                    <h5 class="titulo-produto">Calça cargo bege</h5> <!-- Nome do Produto -->
+                    <div class="star">
+                        <i class="fas fa-star"></i> <!-- Estrelas do produto -->
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="preco">R$110.99</h4>
+                </div>
+                <i class="fal fa-shopping-cart adicionar-carrinho carrinho" onclick="adicionarAoCarrinho(event);"></i> <!-- Imagem Carrinho -->
+            </div>
+            <div class="pro"  onclick="redirecionar('produto24.html');"> <!-- Link para descrição do Produto -->
+                <img src="prod24.jpg" alt="" class="imagem-produto"> <!-- Imagem do Produto -->
+                <div class="des">
+                    <span class="categoria">streetstyle</span>
+                    <h5 class="titulo-produto">Camisa Prision</h5> <!-- Nome do Produto -->
+                    <div class="star">
+                        <i class="fas fa-star"></i> <!-- Estrelas do produto -->
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="preco">R$60.99</h4>
+                </div>
+                <i class="fal fa-shopping-cart adicionar-carrinho carrinho" onclick="adicionarAoCarrinho(event);"></i> <!-- Imagem Carrinho -->
+            </div>
+
+            <div class="pro"  onclick="redirecionar('produto25.html');"> <!-- Link para descrição do Produto -->
+                <img src="prod25.jpg" alt="" class="imagem-produto"> <!-- Imagem do Produto -->
+                <div class="des">
+                    <span class="categoria">streetstyle</span>
+                    <h5 class="titulo-produto">Camisa Baseball Rosa</h5> <!-- Nome do Produto -->
+                    <div class="star">
+                        <i class="fas fa-star"></i> <!-- Estrelas do produto -->
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="preco">R$95.99</h4>
+                </div>
+                <i class="fal fa-shopping-cart adicionar-carrinho carrinho" onclick="adicionarAoCarrinho(event);"></i> <!-- Imagem Carrinho -->
+            </div>
+            <div class="pro"  onclick="redirecionar('produto26.html');"> <!-- Link para descrição do Produto -->
+                <img src="prod26.jpg" alt="" class="imagem-produto"> <!-- Imagem do Produto -->
+                <div class="des">
+                    <span class="categoria">streetstyle</span>
+                    <h5 class="titulo-produto">Calça Jordan Chicago</h5> <!-- Nome do Produto -->
+                    <div class="star">
+                        <i class="fas fa-star"></i> <!-- Estrelas do produto -->
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="preco">R$125.99</h4>
+                </div>
+                <i class="fal fa-shopping-cart adicionar-carrinho carrinho" onclick="adicionarAoCarrinho(event);"></i> <!-- Imagem Carrinho -->
+            </div>
+            <div class="pro"  onclick="redirecionar('produto27.html');"> <!-- Link para descrição do Produto -->
+                <img src="prod27.jpg" alt="" class="imagem-produto"> <!-- Imagem do Produto -->
+                <div class="des">
+                    <span class="categoria">streetstyle</span>
+                    <h5 class="titulo-produto">Saia Cargo Cinza</h5> <!-- Nome do Produto -->
+                    <div class="star">
+                        <i class="fas fa-star"></i> <!-- Estrelas do produto -->
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="preco">R$79.99</h4>
+                </div>
+                <i class="fal fa-shopping-cart adicionar-carrinho carrinho" onclick="adicionarAoCarrinho(event);"></i> <!-- Imagem Carrinho -->
+            </div>
+            <div class="pro"  onclick="redirecionar('produto28.html');"> <!-- Link para descrição do Produto -->
+                <img src="prod28.jpg" alt="" class=""imagem-produto> <!-- Imagem do Produto -->
+                <div class="des">
+                    <span class="categoria">streetstyle</span>
+                    <h5 class=""titulo-produto>Calça Cargo Preta Costuras Contrastantes</h5> <!-- Nome do Produto -->
+                    <div class="star">
+                        <i class="fas fa-star"></i> <!-- Estrelas do produto -->
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="preco">R$125.99</h4>
+                </div>
+                <i class="fal fa-shopping-cart adicionar-carrinho carrinho" onclick="adicionarAoCarrinho(event);"></i> <!-- Imagem Carrinho -->
+            </div>
+
+            <div class="pro"  onclick="redirecionar('produto29.html');"><!-- Link para descrição do Produto -->
+                <img src="prod29.jpg" alt="" class="imagem-produto"> <!-- Imagem do Produto -->
+                <div class="des">
+                    <span class="categoria">streetstyle</span>
+                    <h5 class="titulo-produto">Bermuda Cargo Preta</h5> <!-- Nome do Produto -->
+                    <div class="star">
+                        <i class="fas fa-star"></i> <!-- Estrelas do produto -->
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="preco">R$88.99</h4>
+                </div>
+                <i class="fal fa-shopping-cart adicionar-carrinho carrinho" onclick="adicionarAoCarrinho(event);"></i> <!-- Imagem Carrinho -->
+            </div>
+
+            <div class="pro"  onclick="redirecionar('produto30.html');"> <!-- Link para descrição do Produto -->
+                <img src="prod30.jpg" alt="" class="imagem-produto"> <!-- Imagem do Produto -->
+                <div class="des">
+                    <span class=""categoria>streetstyle</span>
+                    <h5 class="titulo-produto">Jaqueta Couro</h5> <!-- Nome do Produto -->
+                    <div class="star">
+                        <i class="fas fa-star"></i> <!-- Estrelas do produto -->
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="preco">R$150.99</h4>
+                </div>
+                <i class="fal fa-shopping-cart adicionar-carrinho carrinho" onclick="adicionarAoCarrinho(event);"></i> <!-- Imagem Carrinho -->
+            </div>
+
+            <div class="pro"  onclick="redirecionar('produto31.html');"> <!-- Link para descrição do Produto -->
+                <img src="prod31.jpg" alt="" class="imagem-produto"> <!-- Imagem do Produto -->
+                <div class="des">
+                    <span class="categoria">streetstyle</span>
+                    <h5 class="titulo-produto">Camisa Street</h5> <!-- Nome do Produto -->
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="preco">R$65.99</h4>
+                </div>
+                <i class="fal fa-shopping-cart adicionar-carrinho carrinho" onclick="adicionarAoCarrinho(event);"></i> <!-- Imagem Carrinho -->
+            </div>
+
+            <div class="pro"  onclick="redirecionar('produto32.html');"> <!-- Link para descrição do Produto -->
+                <img src="prod32.jpg" alt="" class="imagem-produto"> <!-- Imagem do Produto -->
+                <div class="des">
+                    <span>streetstyle</span>
+                    <h5 class="titulo-produto">Jaqueta Corta-Vento</h5> <!-- Nome do Produto -->
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="preco">R$78.99</h4>
+                </div>
+                <i class="fal fa-shopping-cart adicionar-carrinho carrinho" onclick="adicionarAoCarrinho(event);"></i> <!-- Imagem Carrinho -->
+            </div>
+        </div>
+    </section>
+
+    <section id="pagination" class="section-p1">
+        <a class="linkpagina2" href="shop.html">1</a>
+        <a href="#">2</a>
+
+        <a href="#"><i class="fal fa-long-arrow-alt-right"></i></a> <!-- Imagem Seta -->
+    </section>
+    <!-- Inscrição para usúarios receberem atualizações da loja -->
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Cadastre-se para receber Newsletters</h4>
+            <p>Receba atualizações por e-mail sobre nossa loja e <span>ofertas exclusivas.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Seu endereço de e-mail">
+            <button class="normal">Cadastre-se</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="logo2.png" alt="">
+            <h4>Contatos</h4>
+            <p><strong>Endereço: </strong>Rua Voluntários da Pátria, 1926</p>
+            <p><strong>Telefone: </strong> 11 91327-0984</p>
+            <p><strong>Horário: </strong> 9:00 às 18:00 - Seg a Sab</p>
+            <div class="icon">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-pinterest-p"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+        </div>
+
+        <div class="col">
+            <h4>Sobre</h4>
+            <a href="#">Sobre nós</a>
+            <a href="#">Informações de Rastreio</a>
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Termos e Condições</a>
+            <a href="#">Nos contate</a>
+        </div>
+
+        <div class="col">
+            <h4>Minha Conta</h4>
+            <a href="#">Login</a>
+            <a href="#">Visualizar Carrinho</a>
+            <a href="#">Minha Lista</a>
+            <a href="#">Troca de Produtos</a>
+            <a href="#">Ajuda</a>
+        </div>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
